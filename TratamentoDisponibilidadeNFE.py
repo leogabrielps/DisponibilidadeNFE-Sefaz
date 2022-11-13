@@ -32,7 +32,3 @@ class ConsultaDisponibilidadeNFE:
                     return dfConcat.to_json(orient='records')
             else:
                 return 'Apenas é permitido enviar em forma de lista.'
-
-Consulta = ConsultaDisponibilidadeNFE()
-Pesquisa = Consulta.Pesquisa(['MT','AM'])
-print(Pesquisa)
